@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Vercel PDF Converter</title>
+    <title>Vercel PDF 转换器</title>
     <meta name="title" content="Vercel PDF Converter">
     <meta name="description" content="Vercel function which generates PDFs from Webpages.">
     <link rel="stylesheet" href="/main.css">
@@ -19,18 +19,18 @@
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"><path fill-rule="evenodd" d="M256 48l240 416H16z" fill="white"/><rect x="0" y="0" fill="rgba(0, 0, 0, 0)" /></svg>
             </div>
             <div class="content">
-                <h1>Vercel PDF Converter</h1>
-                <p>Place <span id="host" title="Click to copy" onclick="copy()"></span> in front of any URL to generate a PDF version of it.</p>
+                <h1>Vercel PDF 转换器</h1>
+                <p>将 <span id="host" title="Click to copy" onclick="copy()"></span> 放置在任何 URL 前以生成它的 PDF 版本</p>
             </div>
         </div>
         <div class="actions">
             <div id="input-container" class="input-container noselect">
-                <p class="input-label noselect">Or enter a URL here</p>
+                <p class="input-label noselect">或输入 URL</p>
                 <div class="center">
                     <input id="url" type="url" class="url-input" autocomplete="off" placeholder="https://..." onkeyup="onInput(this)">
                 </div>
             </div>
-            <p id="go" href="/" onclick="generate()">Generate!</p>
+            <p id="go" href="/" onclick="generate()">生成</p>
         </div>
     </div>
     <script src="/main.js"></script>
